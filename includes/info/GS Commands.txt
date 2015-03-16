@@ -1,0 +1,12 @@
+All GS Commands require "gs c" in the front of them
+
+Built in commands:
+  include basic commands -- always avalible
+    set Armor -- sets armor to the desired armor type
+    set Weapon -- sets weapon to the desired weapon type
+    set Range  -- sets range to the desired range type
+        EXAMPLE: set Weapon Club -- will set your weapon to Club
+        EXAMPLE(in chat): //gs c set Weapon Club
+    
+  Extra info:
+    for set you can use eather set or s

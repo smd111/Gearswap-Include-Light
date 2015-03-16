@@ -1,0 +1,15 @@
+to use these includes place then in gearswap/common/
+and put your main files in eather gearswap/data/ or  gearswap/data/<playername>/
+
+
+Already defind sets
+
+    sets.pretarget = {}
+    sets.precast = {}
+    sets.midcast = {}
+    sets.aftercast = {}
+    sets.pet_midcast = {}
+    sets.pet_aftercast = {}
+    sets.armor = {}
+    sets.range = {}
+    sets.weapon = {}

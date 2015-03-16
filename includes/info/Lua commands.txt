@@ -1,0 +1,17 @@
+COR_do(spell) -- will check and if you have any open card cases
+AMMO_do(spell) -- will check and see if you have any and open ammo bags
+NIN_do(spell) -- will check and see if you have any and open nin tool bags
+has_any_buff_of(buff_set) -- will check to see if any buff passed to it is active buff_set = table example:{"sleep","doom"}
+File_Write_do() -- forces the writing of save data i.e. weapon set, armor set, range set
+
+gear equip
+gear_equip() -- will output the gear based on settings you give to gearswap
+Conquest_do(con_typ) -- outputs Conquest gear con_typ = conquest gear type there are 'Mage', 'Tank', or 'Normal'
+MSi_do(spell,staff_type) -- outputs Magen Stave and elemantal grip staff_type can be 'Cure', 'Atk', or 'Acc'
+OBI_equip(spell) -- will output the correct obi based on the spell used (if you have Hachirin-no-Obi it will use that other wise it will return the elemantal obi)
+WS_equip(spell) -- outpust the correct ws head,neck,waist (if you have Fotia gorget/belt it will use that else it will use the elemental gear)
+
+how to equip items from the gear equip section
+equip(OBI_equip(spell))
+equip(MSi_do(spell,'Atk'))
+equip(Conquest_do('Mage'))
