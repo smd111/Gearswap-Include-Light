@@ -20,6 +20,8 @@ sets.ws_belt={Dark={waist="Shadow Belt"},Water={waist="Aqua Belt"},Earth={waist=
         Lightning={waist="Thunder Belt"},Light={waist="Light Belt"},}
 sets.ws_neck={Dark={neck="Shadow Gorget"},Water={neck="Aqua Gorget"},Earth={neck="Soil Gorget"},Ice={neck="Snow Gorget"},Fire={neck="Flame Gorget"},
         Wind={neck="Breeze Gorget"},Lightning={neck="Thunder Gorget"},Light={neck="Light Gorget"},}
+sets.spell_obi={Fire={waist="Karin Obi"},Earth={waist="Dorin Obi"},Water={waist="Suirin Obi"},Wind={waist="Furin Obi"},Ice={waist="Hyorin Obi"},
+        Lightning={waist="Rairin Obi"},Light={waist="Korin Obi"},Dark={waist="Anrin Obi"},}
         --Weapon types
 weapon_types = L{'Axe','Club','Dagger','Great_Axe','Great_Sword','Hand-to-Hand','Polearm','Scythe','Staff','Sword','Great_Katana','Katana','Reserve','None'}
         --Range types
